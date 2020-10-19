@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity = "center_horizontal"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Đăng kí"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity = "center_horizontal">
+
+        <EditText
+        android:id="@+id/editText_lastname"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+            android:gravity = "center"
+            android:layout_marginRight="20dp"
+        android:hint="last name" />
+
+        <EditText
+            android:id="@+id/editText_firstname"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:gravity = "center"
+            android:hint="first name" />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/editText_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="email" />
+
+    <EditText
+        android:id="@+id/editText_pass"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText_username"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="username" />
+
+    <EditText
+        android:id="@+id/editText_repass"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="repeat password"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:gravity = "center_horizontal">
+    <Button
+        android:id="@+id/bt_ok"
+        android:layout_width="170dp"
+        android:layout_height="match_parent"
+
+        android:background="@null"
+        android:text="Xong"
+        android:textAllCaps="false"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/bt_huy"
+        android:layout_width="170dp"
+        android:layout_height="match_parent"
+
+        android:background="@null"
+        android:text="Hủy"
+        android:textAllCaps="false"
+        android:textSize="20dp" />
+    </LinearLayout>
+</LinearLayout>
